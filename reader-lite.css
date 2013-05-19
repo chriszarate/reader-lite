@@ -1,0 +1,39 @@
+/*  Google Reader Lite v0.99 - 2010 March 3  */
+/*  An extension of the good work at helvetireader.com  */
+
+
+/* BEGIN font settings */
+
+a, a.link, span.link { color: #999; text-decoration: none; }
+
+/* END font settings */
+
+
+/* BEGIN hidden elements */
+
+#home-section, #trends-selector, #directory-selector, #lhn-selections, #lhn-selectors-minimize, 
+div.selectors-footer, #lhn-recommendations, #star-selector div.selector-icon, 
+div.entry-actions span.link, div.entry-actions span.item-plusone, div.entry-actions span.email { display: none !important; }
+
+/* END hidden elements */
+
+
+/* BEGIN navigation */
+
+.lhn-section-primary { line-height: 21px !important; margin-top: 1em; }
+#reading-list-unread-count { margin: 0; }
+
+/* END navigation */
+
+
+/* BEGIN entries */
+
+div.entry a { color: #000 !important; text-decoration: underline; }
+div.entry a:hover { color: #333 !important; }
+
+#current-entry div.collapsed, #current-entry div.entry-container { border-left: solid 1px #999 !important; }
+
+div.entry-actions { border-top: none !important; border-left: solid 1px #999 !important; }
+div.entry-actions:hover span.item-star, div.entry-actions:hover span.read-state, div.entry-actions:hover span.item-link { display: inline !important; }
+
+/* END entries */
